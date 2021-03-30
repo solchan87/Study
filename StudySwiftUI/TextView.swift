@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct TextView: View {
+  @State var string: String = "first"
+  
+  init() {
+    _string = .init(initialValue: "huhuh")
+  }
+  
   var body: some View {
-    Text("test text")
+    Text(string)
       .font(.system(size: 24))
       .bold()
       .strikethrough(true, color: .blue)
