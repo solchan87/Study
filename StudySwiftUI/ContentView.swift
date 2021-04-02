@@ -12,7 +12,7 @@ struct ContentView: View {
   @State var customValue: String
   
   init() {
-    _customValue = State(initialValue: "이로케")
+    _customValue = State(initialValue: "test")
   }
   
   var body: some View {
