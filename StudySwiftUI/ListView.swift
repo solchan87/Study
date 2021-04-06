@@ -18,10 +18,18 @@ struct Row: View {
 struct ListView: View {
   var body: some View {
     List {
-      Row(name: "1")
-      Row(name: "2")
-      Row(name: "3")
+      Section(header: Text("section1")) {
+        Row(name: "1")
+        Row(name: "2")
+        Row(name: "3")
+      }
+      Section(header: Text("section2")) {
+        Row(name: "1")
+        Row(name: "2")
+        Row(name: "3")
+      }
     }
+    .listStyle(GroupedListStyle())
     .accentColor(.green)
   }
 }
