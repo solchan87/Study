@@ -14,6 +14,7 @@
 		E2A604F02610AF9B0041EE31 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A604EF2610AF9B0041EE31 /* TextView.swift */; };
 		E2D2F8992617672400607831 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D2F8982617672400607831 /* StackView.swift */; };
 		E2E91C4B261B4FF2002F71A1 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C4A261B4FF2002F71A1 /* ListView.swift */; };
+		E2E91C5C261DFDC4002F71A1 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C5B261DFDC4002F71A1 /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E2A604EF2610AF9B0041EE31 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		E2D2F8982617672400607831 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		E2E91C4A261B4FF2002F71A1 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E2E91C5B261DFDC4002F71A1 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E2A604E32610A36D0041EE31 /* Assets.xcassets */,
 				E2A604E82610A36D0041EE31 /* Info.plist */,
 				E2A604E52610A36D0041EE31 /* Preview Content */,
+				E2E91C5B261DFDC4002F71A1 /* NavigationView.swift */,
 			);
 			path = StudySwiftUI;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				E2A604F02610AF9B0041EE31 /* TextView.swift in Sources */,
 				E2E91C4B261B4FF2002F71A1 /* ListView.swift in Sources */,
 				E2A604E02610A36C0041EE31 /* StudySwiftUIApp.swift in Sources */,
+				E2E91C5C261DFDC4002F71A1 /* NavigationView.swift in Sources */,
 				E2D2F8992617672400607831 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
