@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NavigationView: View {
+struct TestNavigationView: View {
   var body: some View {
     NavigationView {
       NavigationLink(destination: TextView()) {
@@ -19,7 +19,7 @@ struct NavigationView: View {
 
 struct Navigation_Previews: PreviewProvider {
   static var previews: some View {
-    NavigationView()
+    TestNavigationView()
       .previewDevice("iPhone 12 mini")
   }
 }
