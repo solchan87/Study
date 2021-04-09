@@ -13,6 +13,7 @@ struct TestNavigationView: View {
       NavigationLink(destination: TextView()) {
         Text("Test")
       }
+      .navigationTitle("Test")
     }
   }
 }

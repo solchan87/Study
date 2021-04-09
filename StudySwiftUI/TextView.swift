@@ -24,6 +24,7 @@ struct TextView: View {
       .italic()
       .tracking(19)
       .foregroundColor(.red)
+      .navigationTitle("Huhuh")
   }
 }
 
