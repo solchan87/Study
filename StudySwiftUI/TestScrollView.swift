@@ -16,7 +16,9 @@ struct TestScrollView: View {
       content: {
         VStack(spacing: 20) {
           ForEach(0..<100) { i in
-            StackView {
+            VStack {
+              Text("Test")
+              Text("Test")
               Text("Test")
             }
           }

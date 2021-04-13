@@ -16,6 +16,7 @@
 		E2E91C4B261B4FF2002F71A1 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C4A261B4FF2002F71A1 /* ListView.swift */; };
 		E2E91C5C261DFDC4002F71A1 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C5B261DFDC4002F71A1 /* NavigationView.swift */; };
 		E2E91C5F26209309002F71A1 /* TestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C5E26209309002F71A1 /* TestScrollView.swift */; };
+		E2E91C622625DECC002F71A1 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C612625DECC002F71A1 /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E2E91C4A261B4FF2002F71A1 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		E2E91C5B261DFDC4002F71A1 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		E2E91C5E26209309002F71A1 /* TestScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollView.swift; sourceTree = "<group>"; };
+		E2E91C612625DECC002F71A1 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				E2A604E82610A36D0041EE31 /* Info.plist */,
 				E2A604E52610A36D0041EE31 /* Preview Content */,
 				E2E91C5B261DFDC4002F71A1 /* NavigationView.swift */,
+				E2E91C612625DECC002F71A1 /* ButtonsView.swift */,
 			);
 			path = StudySwiftUI;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				E2E91C4B261B4FF2002F71A1 /* ListView.swift in Sources */,
 				E2A604E02610A36C0041EE31 /* StudySwiftUIApp.swift in Sources */,
 				E2E91C5C261DFDC4002F71A1 /* NavigationView.swift in Sources */,
+				E2E91C622625DECC002F71A1 /* ButtonsView.swift in Sources */,
 				E2D2F8992617672400607831 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
