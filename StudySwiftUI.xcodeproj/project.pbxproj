@@ -22,6 +22,7 @@
 		E2E91C622625DECC002F71A1 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C612625DECC002F71A1 /* ButtonsView.swift */; };
 		E2E91C6526272821002F71A1 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C6426272821002F71A1 /* SliderView.swift */; };
 		E2E91C6826288849002F71A1 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E91C6726288849002F71A1 /* TextFieldView.swift */; };
+		E2F23EF22631C105002B2DFF /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F23EF12631C105002B2DFF /* AnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E2E91C612625DECC002F71A1 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		E2E91C6426272821002F71A1 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		E2E91C6726288849002F71A1 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		E2F23EF12631C105002B2DFF /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				E2E0D6A4262DD0FE00F04AA1 /* PickerView.swift */,
 				E2E0D6A7262F1AE300F04AA1 /* AlertView.swift */,
 				E2E0D6B0263072A400F04AA1 /* ActionSheetView.swift */,
+				E2F23EF12631C105002B2DFF /* AnimationView.swift */,
 			);
 			path = StudySwiftUI;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				E2A604E02610A36C0041EE31 /* StudySwiftUIApp.swift in Sources */,
 				E2E91C6826288849002F71A1 /* TextFieldView.swift in Sources */,
 				E2E91C5C261DFDC4002F71A1 /* NavigationView.swift in Sources */,
+				E2F23EF22631C105002B2DFF /* AnimationView.swift in Sources */,
 				E2E91C622625DECC002F71A1 /* ButtonsView.swift in Sources */,
 				E2D2F8992617672400607831 /* StackView.swift in Sources */,
 			);
