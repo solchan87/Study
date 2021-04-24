@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-// View where Notification view will be inserted
 struct NotificationContainerView: View {
     // Initialize with hidden notification.
     @State var showNotification: Bool = false
@@ -36,7 +35,6 @@ struct NotificationContainerView: View {
     }
 }
 
-// Creates effect of blurring of content below view that has this style applied to it
 struct BlurView: UIViewRepresentable {
     var style: UIBlurEffect.Style = .systemMaterial
     func makeUIView(context: Context) -> UIVisualEffectView {
@@ -47,10 +45,6 @@ struct BlurView: UIViewRepresentable {
     }
 }
 
-//
-// Notification View. Title, Description, Action button all can be inserted from
-// the parent View if necessary.
-//
 struct NotificationView: View {
     @Binding var visible: Bool
     @State private var offset: CGSize = .zero
