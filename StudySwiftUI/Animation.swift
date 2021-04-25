@@ -111,6 +111,5 @@ struct NotificationView: View {
 struct NotificationContainerView_Previews: PreviewProvider {
   static var previews: some View {
     NotificationContainerView()
-      .previewDevice("iPhone 12 mini")
   }
 }
